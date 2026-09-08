@@ -1,0 +1,6 @@
+interface:
+  display_name: "Команда разработки"
+  short_description: "Субагенты и отдельный ревьюер с тестами по риску"
+  default_prompt: "Используй $dev-team для моей задачи: реализуй изменения и поручай отдельному ревьюеру проверки по риску."
+policy:
+  allow_implicit_invocation: false
